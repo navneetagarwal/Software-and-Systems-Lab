@@ -1,0 +1,10 @@
+dirs: Creates a target to create a directory. It checks if its already present and then makes changes
+b2dsetup: checks if the setup is installed ad if not installed it will install it by itself. it will compile the source and reduce users effort of creating files
+setup: is a target for doing all the above tasks cllectively 
+$(OBJS):Create a target which will place the required files in myobjs folder and return error log
+exe: creates an executable and from libraries from myobjs folder.
+exe_opt:creates an executable and from libraries (optimized) from myobjs folder.
+clean removes all the files created by us: essential for reset
+DistClean: Basically more like a hard reset which sets everything to default
+Makesubmission: Target to create all the usermade files and compress them to be shared.
+

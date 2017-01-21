@@ -1,0 +1,2 @@
+The three executables have sizes 9223 KB (DYNAMIC) and 9249 (STATIC) and 9249KB (NO LIBRARY)
+When we have dynamic library the size is less . this maybe because the dynamic library stores pointers to the functional objects and is compiled only at the runtime. Hence it has smaller size. But static library need not be copied each time as it refers to the objects themselves. We dont see difference bettween the static and no libraries as they both are compiled as individual sources and the execuatble is then compiled.
