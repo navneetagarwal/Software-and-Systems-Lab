@@ -1,0 +1,24 @@
+commit 35f0e00d8a38c3624b36a1c1a5a244b92583319a
+Merge: 2026433 f5fece5
+Author: Harshal <harshal.m@cse.iitb.ac.in>
+Date:   Mon Sep 21 22:23:07 2015 +0530
+
+    First overruled seconds editions
+
+commit 20264335ca8e5762d65c8e8046184d3298455feb
+Author: Harshal <harshal.m@cse.iitb.ac.in>
+Date:   Mon Sep 21 22:21:33 2015 +0530
+
+    First edit Conflict.txt
+
+commit f5fece5e14e12eba29ba84da56dfec96af98dbae
+Author: Harshal <harshal.m@cse.iitb.ac.in>
+Date:   Mon Sep 21 22:20:21 2015 +0530
+
+    Second edited observeConflict.txt
+
+commit ca971f8b22e8b558bdbed3001c8137a54c8e8a3d
+Author: Harshal <harshal.m@cse.iitb.ac.in>
+Date:   Mon Sep 21 22:19:16 2015 +0530
+
+    first created observeConflict.txt
