@@ -1,0 +1,119 @@
+.maxmi{
+    	position: relative;
+    	padding-top:1px;
+    	padding-bottom:0.6%;
+    	margin-top:1.8%;
+    	margin-left: 1.2%;
+    	margin-right: 0.6%;
+    	background: #cccccc ;
+    	text-align:center;
+	}
+.pre{
+	font-family: Helvetica;
+	font-size: 180%;
+}
+#top1{
+	font-family: Georgia;
+	font-size: 300%;
+	font-weight: normal;
+	padding-bottom: 0;
+}
+#top2{
+	font-size: 150%;
+	font-family: Helvetica;
+	font-weight: normal;
+	padding: 0;
+	font-size: 175%;
+}
+#Description{
+	font-size: 180%;
+	padding-bottom:0;
+	margin-bottom: 0;
+	font-family: Georgia;
+	margin-right: 18%;
+}
+#Interest{
+	font-size: 180%;
+	padding: 0px;
+
+	margin-left: 6%;
+	float:left;
+	font-family: Georgia;
+	text-align: left;
+}
+#Line{
+	width: 100%;
+	margin-right: 8.4%;
+	text-align: left;
+}
+#menu_bar{
+  	font-family: Helvetica;
+}
+#menu_bar,
+#menu_bar div,
+#menu_bar ul,
+#menu_bar li,
+#menu_bar a {
+	margin: 0;
+  	margin-left: 0.6%;
+  	padding: 0.3%;
+  	padding-right: 15px;
+  	padding-left: 15px;
+  	border: 0;
+  	list-style: none outside;
+  	font-weight: bold;
+  	text-decoration: none;
+  	line-height: 1;
+  	font-size: 14px;
+  	position: static;
+  	z-index: 1;
+  	white-space: nowrap;
+}
+#menu_bar {
+  	text-align: center;
+  	background-color: #dddddd;
+  	padding: 10px;
+  	margin: 0px;
+  	padding-top: 15px;
+}
+#menu_bar > ul {
+  	width: 90%;
+  	*zoom: 1;
+  	display: inline-block;
+  	*display: inline;
+}
+#menu_bar > ul > li {
+  	float: left;
+}
+#menu_bar li {
+  	margin-right: 3.5%;
+}
+#menu_bar li:last-child {
+  	margin-right: 0;
+}
+#menu_bar a {
+  	-webkit-transition: all 0.5s;
+  	-moz-transition: all 0.5s;
+  	-ms-transition: all 0.5s;
+  	-o-transition: all 0.5s;
+  	text-transform: uppercase;
+  	background: #003366;
+  	padding: 10px 18px;
+  	color: #ffffff;
+  	position: relative;
+  	overflow: hidden;
+}
+#menu_bar a:hover {
+  	background: #4477aa;
+}
+#menu_bar .active a:after {
+  	content: '';
+  	display: block;
+  	position: absolute;
+  	bottom: 0;
+  	right: 0;
+  	width: 15%;
+  	height: 50%;
+  	z-index: 1;
+  	background-image: linear-gradient(135deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, #aaaaaa 51%, #aaaaaa 83%, #aaaaaa 100%);
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Canvas Image
+	</title>
+	<link rel="stylesheet" type="text/css" href="../index.css">
+</head>
+<body>
+<div class="maxmi">
+
+<h1 id ="top1">Blitz!</h1>
+<h2 id = "top2">Exterminators</h4>
+
+</div>
+<div style="margin-left: 1.2%;margin-right: 0.6%;">
+   		<div id="menu_bar">
+			<ul>
+   				<li ><a href="../index.html">Home</span></a></li>
+   				<li><a href="AboutMe.html"><span>About Me</span></a></li>
+   				<li><a href="group.html"><span>Group</span></a></li>
+   				<li class="active"><a href="Canvas.html"><span>HTML Canvas</span></a></li>
+   				<li><a href="SAC Map.html"><span>SAC Map</span></a></li>
+   				<li id="Contact"><a href="contactme.html"><span>Contact Me</span></a></li>
+			</ul>	
+		</div>
+	</div>
+</div>
+
+<br><br>
+<canvas id="myCanvas" width="400" height="400" style="border:1px solid #000000; margin-left: 37%; *zoom=1.5; text-align: center">
+Your browser does not support the HTML5 canvas tag.
+</canvas>
+<script type="text/javascript">
+var c=document.getElementById('myCanvas');
+var cxt=c.getContext('2d');
+cxt.beginPath();
+cxt.moveTo(100,130);
+cxt.lineTo(100,75);
+cxt.moveTo(60,80);
+cxt.arc(100,80,40,Math.PI,false);
+cxt.lineTo(140,80);
+for(var i=130;i>=70;i-=20){
+	cxt.arc(i,80,10,0,Math.PI,true);
+	cxt.stroke();
+}
+cxt.fill();
+cxt.moveTo(100,100);
+cxt.arcTo(100,140,70,140,10);
+cxt.moveTo(130,130);
+cxt.arc(120,130,10,Math.PI*2,false);
+cxt.moveTo(120,140);
+cxt.lineTo(120,180);
+cxt.lineTo(110,190);
+cxt.moveTo(120,180);
+cxt.lineTo(130,190);
+cxt.moveTo(120,155);
+cxt.lineTo(100,130);
+for(var x=65;x<=135;x+=10){
+for(var i=65;i>=5;i-=15){
+	cxt.moveTo(x,i);
+	cxt.lineTo(x,i-10);
+	cxt.lineWidth=0.5;
+	cxt.stroke();
+}
+}
+cxt.lineWidth=2;
+cxt.rect(160,85,60,40);
+cxt.font = "30px Arial";
+cxt.fillText("IITB",160,120);
+cxt.moveTo(190,125);
+cxt.lineTo(190,190);
+cxt.lineTo(180,190);
+cxt.lineTo(200,190);
+cxt.stroke();
+</script>
+</body>
+</html>

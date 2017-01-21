@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SAC Map</title>
+	<link rel="stylesheet" type="text/css" href="../index.css">
+	<style type="text/css">
+
+	#header {
+		background-color: black;
+		color: #cc0000;
+		text-align: center;
+		font-size: 150%;
+		border-bottom:3px solid #cc0000;
+	}
+
+	#nav {
+		display: inline;
+		/*background-color: black;*/
+	}
+
+	.button {
+		background-color: #cc0000;
+		color: black;
+		padding: 10px;
+		height: 10px;
+		font-weight: bold;
+		font-family: verdana;
+		border: 3px solid;
+		border-color: black;
+		border-bottom-right-radius: 15px;
+		border-bottom-left-radius: 15px;
+		border-top: none;
+	}
+
+	a:link {color:black;}
+	a:hover {color:yellow;}
+
+	#section {
+		color:#cc0000;
+		padding:10px;
+	}
+	#Img {
+		width:775px;
+		float:left;
+	}
+
+	#Right {
+		float:left;
+		padding:15px;
+		/*border:1px solid #cc0000;*/
+		/*width:550px;*/
+	}
+
+	#Room {
+		color:#cc0000;
+		font-family:helvetica;
+		font-size:150%;
+	}
+
+	#isometric {
+		padding:10x;
+	}
+
+	</style>
+
+<script>
+	
+	function hoverIn(a) {
+		document.getElementById("Room").innerHTML=a;
+		
+	}
+	function hoverOut() {
+		document.getElementById("Room").innerHTML=null;
+		document.getElementById('isometric').src="images/blank.png";
+	}
+	function imageIn(b) {
+		if(b==1) {
+			document.getElementById('isometric').src="images/yogaRoom.png";}
+		else {
+			document.getElementById('isometric').src="images/Techfest.png";
+		}
+	}
+</script>
+</head>
+<body>
+
+	<div class="maxmi">
+
+		<h1 id ="top1">Blitz!</h1>
+		<h2 id = "top2">Exterminators</h4>
+
+	</div>
+	<div style="margin-left: 1.2%;margin-right: 0.6%;">
+   		<div id="menu_bar">
+			<ul>
+   				<li ><a href="../index.html">Home</span></a></li>
+   				<li><a href="AboutMe.html"><span>About Me</span></a></li>
+   				<li><a href="group.html"><span>Group</span></a></li>
+   				<li ><a href="Canvas.html"><span>HTML Canvas</span></a></li>
+   				<li class="active"><a href="SAC Map.html"><span>SAC Map</span></a></li>
+   				<li id="Contact"><a href="contactme.html"><span>Contact Me</span></a></li>
+			</ul>	
+		</div>
+	</div>
+	<div id="Img">
+		<map name="SAC">
+			<area shape="rect" coords="347.16,528.03,398.09,630.44" onmouseover = "hoverIn('Conference Room and Library')" onmouseout="hoverOut()">
+
+			<area shape="rect" coords="347.15,658.32,552.99,697.92" onmouseover = "hoverIn('SAC Offices')" onmouseout="hoverOut()">
+
+			<area shape="rect" coords="581.61,428.75,631.18,511.84" onmouseover = "hoverIn('Gym')" onmouseout="hoverOut()">
+
+			<area shape="rect" coords="581.79,513.39,631.36,559.71" onmouseover = "hoverIn('Weightlifting Room')" onmouseout="hoverOut()">
+
+			<area shape="rect" coords="581.79,561.12,631.35,631.28" onmouseover = "hoverIn('New Yoga Room'); imageIn(1)" onmouseout="hoverOut()">
+
+			<area shape="rect" coords="245.5,127.28,286.55,204.42" onmouseover = "hoverIn('NSS Room')" onmouseout="hoverOut()">
+
+			<area shape="rect" coords="202.44,127.43,243.64,204.56" onmouseover = "hoverIn('Squash Room')" onmouseout="hoverOut()">
+
+			<area shape="rect" coords="97.24,127.54,200.51,204.68" onmouseover = "hoverIn('Theatre Room')" onmouseout="hoverOut()">
+
+			<area shape="rect" coords="632.57,241.03,682.14,339.26" onmouseover = "hoverIn('Dance Room')" onmouseout="hoverOut()">
+
+			<area shape="rect" coords="399.85,474.05,553.15,629.41" onmouseover = "hoverIn('Garden Area')" onmouseout="hoverOut()">
+
+			<area shape="poly" coords="650.88,191.6, 621.01,230.1, 633.14,239.77, 681.51,239.77, 681.51,216.59" onmouseover = "hoverIn('STAB Room')" onmouseout="hoverOut()">
+
+			<area shape="poly" coords="517.25,146.36,546.96,109.42,506.96,78.17, 490.21, 78.17, 490.21, 126.36" onmouseover = "hoverIn('Music Room')" onmouseout="hoverOut()">
+
+			<area shape="rect" coords="488.61,76.52,452.04,126.08" onmouseover = "hoverIn('Store Room')" onmouseout="hoverOut()">
+
+			<area shape="rect" coords="29.12,237.6, 68.75,428.6" onmouseover = "hoverIn('Techfest, Mood-I and E-Cell Rooms'); imageIn(2)" onmouseout="hoverOut()">
+
+			<area shape="poly" coords="618.62,228.05, 648.22,190.43, 549.54,111.18, 519.63,148.18" onmouseover = "hoverIn('Table Tennis Room')" onmouseout="hoverOut()">
+
+		</map>
+		<img src="images/sac.png" width="745" height="1053" alt="SAC MAP" usemap="#SAC">
+	</div>
+	<br><br><br><br><br><br><br><br><br><br>
+
+	<div id="Right">
+		<p style="font-size:24px; font-family:georgia"><u>ROOM NAME:</u><br></p>
+		<br>
+		<p id="Room"></p>
+		<br>
+
+		<img id="isometric" width="300" height="300" src="images/blank.png" style="margin:10px">
+
+	</div>
+</body>
+</html>
