@@ -1,0 +1,189 @@
+Breakpoint 1 at 0x4006a5: file err.c, line 35.
+The program is not being run.
+Starting program: /users/ug14/tanmayb/Downloads/Lab09/a.out 
+
+Breakpoint 1, main () at err.c:35
+35	  struct ListNode *head = NULL;
+36	  struct ListNode *curr = NULL;
+37	  for (i = 0; i < 7; i++) {
+38	    struct ListNode *t =       (struct ListNode *) malloc(sizeof(struct ListNode));
+39	    t->val = i + 1;
+40	    t->next = NULL;
+Undefined command: "t->val".  Try "help".
+$1 = 1
+$2 = (struct ListNode *) 0x0
+41	    if (head == NULL) {
+42	      curr = t;
+37	  for (i = 0; i < 7; i++) {
+$3 = (struct ListNode *) 0x0
+$4 = 1
+38	    struct ListNode *t =       (struct ListNode *) malloc(sizeof(struct ListNode));
+__GI___libc_malloc (bytes=140737488345872) at malloc.c:2876
+2876	malloc.c: No such file or directory.
+Run till exit from #0  __GI___libc_malloc (bytes=140737488345872)
+    at malloc.c:2876
+0x00000000004006c8 in main () at err.c:38
+38	    struct ListNode *t =       (struct ListNode *) malloc(sizeof(struct ListNode));
+Value returned is $5 = (void *) 0x602030
+39	    t->val = i + 1;
+40	    t->next = NULL;
+41	    if (head == NULL) {
+42	      curr = t;
+37	  for (i = 0; i < 7; i++) {
+38	    struct ListNode *t =       (struct ListNode *) malloc(sizeof(struct ListNode));
+Undefined command: "nezt".  Try "help".
+39	    t->val = i + 1;
+
+
+
+Breakpoint 1, main () at err.c:35
+35	  struct ListNode *head = NULL;
+36	  struct ListNode *curr = NULL;
+37	  for (i = 0; i < 7; i++) {
+38	    struct ListNode *t =       (struct ListNode *) malloc(sizeof(struct ListNode));
+39	    t->val = i + 1;
+40	    t->next = NULL;
+Undefined command: "ss".  Try "help".
+41	    if (head == NULL) {
+42	      curr = t;
+43	      head = t;
+37	  for (i = 0; i < 7; i++) {
+38	    struct ListNode *t =       (struct ListNode *) malloc(sizeof(struct ListNode));
+39	    t->val = i + 1;
+40	    t->next = NULL;
+41	    if (head == NULL) {
+46	      curr->next = t;
+47	      curr = curr->next;
+37	  for (i = 0; i < 7; i++) {
+$1 = 2
+$2 = (struct ListNode *) 0x0
+38	    struct ListNode *t =       (struct ListNode *) malloc(sizeof(struct ListNode));
+__GI___libc_malloc (bytes=140737488345872) at malloc.c:2876
+2876	malloc.c: No such file or directory.
+Run till exit from #0  __GI___libc_malloc (bytes=140737488345872)
+    at malloc.c:2876
+0x00000000004006c8 in main () at err.c:38
+38	    struct ListNode *t =       (struct ListNode *) malloc(sizeof(struct ListNode));
+Value returned is $3 = (void *) 0x602050
+39	    t->val = i + 1;
+40	    t->next = NULL;
+41	    if (head == NULL) {
+46	      curr->next = t;
+47	      curr = curr->next;
+37	  for (i = 0; i < 7; i++) {
+38	    struct ListNode *t =       (struct ListNode *) malloc(sizeof(struct ListNode));
+39	    t->val = i + 1;
+40	    t->next = NULL;
+41	    if (head == NULL) {
+46	      curr->next = t;
+47	      curr = curr->next;
+37	  for (i = 0; i < 7; i++) {
+38	    struct ListNode *t =       (struct ListNode *) malloc(sizeof(struct ListNode));
+39	    t->val = i + 1;
+40	    t->next = NULL;
+41	    if (head == NULL) {
+46	      curr->next = t;
+47	      curr = curr->next;
+37	  for (i = 0; i < 7; i++) {
+38	    struct ListNode *t =       (struct ListNode *) malloc(sizeof(struct ListNode));
+39	    t->val = i + 1;
+40	    t->next = NULL;
+41	    if (head == NULL) {
+46	      curr->next = t;
+47	      curr = curr->next;
+37	  for (i = 0; i < 7; i++) {
+38	    struct ListNode *t =       (struct ListNode *) malloc(sizeof(struct ListNode));
+39	    t->val = i + 1;
+40	    t->next = NULL;
+41	    if (head == NULL) {
+46	      curr->next = t;
+47	      curr = curr->next;
+37	  for (i = 0; i < 7; i++) {
+51	  rev_traverse = reverseList(head);
+reverseList (head=0x602010) at err.c:22
+22	    if (head == NULL) 	return head;
+23	    if (head->next == NULL) return head;
+25		struct ListNode *temp = head;
+26		struct ListNode *back_head = NULL;
+$4 = (struct ListNode *) 0x602030
+27		reverse(temp, back_head, &head);
+reverse (temp=0x602010, back_head=0x0, head=0x7fffffffdab8) at err.c:10
+10	    if (temp->next != NULL) reverse(temp->next, back_head, head);
+reverse (temp=0x602030, back_head=0x0, head=0x7fffffffdab8) at err.c:10
+10	    if (temp->next != NULL) reverse(temp->next, back_head, head);
+$5 = (struct ListNode *) 0x602050
+$6 = (struct ListNode *) 0x602050
+$7 = (struct ListNode *) 0x602050
+$8 = (struct ListNode *) 0x602050
+reverse (temp=0x602050, back_head=0x0, head=0x7fffffffdab8) at err.c:10
+10	    if (temp->next != NULL) reverse(temp->next, back_head, head);
+$9 = (struct ListNode *) 0x602070
+reverse (temp=0x602070, back_head=0x0, head=0x7fffffffdab8) at err.c:10
+10	    if (temp->next != NULL) reverse(temp->next, back_head, head);
+reverse (temp=0x602090, back_head=0x0, head=0x7fffffffdab8) at err.c:10
+10	    if (temp->next != NULL) reverse(temp->next, back_head, head);
+reverse (temp=0x6020b0, back_head=0x0, head=0x7fffffffdab8) at err.c:10
+10	    if (temp->next != NULL) reverse(temp->next, back_head, head);
+reverse (temp=0x6020d0, back_head=0x0, head=0x7fffffffdab8) at err.c:10
+10	    if (temp->next != NULL) reverse(temp->next, back_head, head);
+12		back_head = temp;
+$10 = (struct ListNode *) 0x0
+$11 = (struct ListNode *) 0x0
+13		*head = back_head;
+14		return;
+19	}
+reverse (temp=0x6020b0, back_head=0x0, head=0x7fffffffdab8) at err.c:16
+16	    back_head->next = temp;
+$12 = (struct ListNode *) 0x0
+
+Program received signal SIGSEGV, Segmentation fault.
+0x0000000000400611 in reverse (temp=0x6020b0, back_head=0x0, 
+    head=0x7fffffffdab8) at err.c:16
+16	    back_head->next = temp;
+
+
+Breakpoint 1 at 0x4006b1: file correct.c, line 35.
+Starting program: /users/ug14/tanmayb/Downloads/Lab09/a.out 
+
+Breakpoint 1, main () at correct.c:35
+35	  struct ListNode *head = NULL;
+36	  struct ListNode *curr = NULL;
+37	  for (i = 0; i < 7; i++) {
+38	    struct ListNode *t = (struct ListNode *) malloc(sizeof(struct ListNode));
+39	    t->val = i + 1;
+40	    t->next = NULL;
+41	    if (head == NULL) {
+42	      curr = t;
+43	      head = t;
+37	  for (i = 0; i < 7; i++) {
+$1 = (struct ListNode *) 0x602010
+Undefined command: "ss".  Try "help".
+38	    struct ListNode *t = (struct ListNode *) malloc(sizeof(struct ListNode));
+__GI___libc_malloc (bytes=140737488345872) at malloc.c:2876
+2876	malloc.c: No such file or directory.
+Run till exit from #0  __GI___libc_malloc (bytes=140737488345872)
+    at malloc.c:2876
+0x00000000004006d4 in main () at correct.c:38
+38	    struct ListNode *t = (struct ListNode *) malloc(sizeof(struct ListNode));
+Value returned is $2 = (void *) 0x602030
+39	    t->val = i + 1;
+40	    t->next = NULL;
+41	    if (head == NULL) {
+45	      curr->next = t;
+46	      curr = curr->next;
+37	  for (i = 0; i < 7; i++) {
+38	    struct ListNode *t = (struct ListNode *) malloc(sizeof(struct ListNode));
+__GI___libc_malloc (bytes=140737488345872) at malloc.c:2876
+2876	malloc.c: No such file or directory.
+Run till exit from #0  __GI___libc_malloc (bytes=140737488345872)
+    at malloc.c:2876
+0x00000000004006d4 in main () at correct.c:38
+38	    struct ListNode *t = (struct ListNode *) malloc(sizeof(struct ListNode));
+Value returned is $3 = (void *) 0x602050
+39	    t->val = i + 1;
+40	    t->next = NULL;
+41	    if (head == NULL) {
+45	      curr->next = t;
+46	      curr = curr->next;
+37	  for (i = 0; i < 7; i++) {
+

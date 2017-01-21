@@ -1,0 +1,510 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  ms/call  ms/call  name    
+ 99.92     58.23    58.23    10604     5.49     5.49  debug_draw_t::DrawSolidCircle(b2Vec2 const&, float, b2Vec2 const&, b2Color const&)
+  0.03     58.25     0.02                             b2PulleyJoint::InitVelocityConstraints(b2SolverData const&)
+  0.02     58.26     0.01   349933     0.00     0.00  operator+(b2Vec2 const&, b2Vec2 const&)
+  0.02     58.27     0.01   349932     0.00     0.00  operator*(float, b2Vec2 const&)
+  0.02     58.28     0.01                             b2ContactSolver::SolveVelocityConstraints()
+  0.00     58.28     0.00  1039206     0.00     0.00  b2Vec2::b2Vec2(float, float)
+  0.00     58.28     0.00    24100     0.00     0.00  debug_draw_t::DrawSolidPolygon(b2Vec2 const*, int, b2Color const&)
+  0.00     58.28     0.00    12532     0.00     0.00  debug_draw_t::DrawSegment(b2Vec2 const&, b2Vec2 const&, b2Color const&)
+  0.00     58.28     0.00    11445     0.00     0.00  b2ContactListener::PostSolve(b2Contact*, b2ContactImpulse const*)
+  0.00     58.28     0.00    11428     0.00     0.00  b2ContactListener::PreSolve(b2Contact*, b2Manifold const*)
+  0.00     58.28     0.00     7712     0.00     0.00  float b2Max<float>(float, float)
+  0.00     58.28     0.00     4704     0.00     0.00  b2Vec2::b2Vec2()
+  0.00     58.28     0.00     2048     0.00     0.00  cs251::contact_point_t::contact_point_t()
+  0.00     58.28     0.00      964     0.00     0.00  debug_draw_t::DrawString(int, int, char const*, ...)
+  0.00     58.28     0.00      964     0.00     0.00  cs251::base_sim_t::draw_title(int, int, char const*)
+  0.00     58.28     0.00      964     0.00     0.00  cs251::base_sim_t::set_text_line(int)
+  0.00     58.28     0.00      964     0.00     0.00  cs251::base_sim_t::step(cs251::settings_t*)
+  0.00     58.28     0.00      964     0.00     0.00  b2World::SetSubStepping(bool)
+  0.00     58.28     0.00      964     0.00     0.00  b2World::SetWarmStarting(bool)
+  0.00     58.28     0.00      964     0.00     0.00  b2World::SetContinuousPhysics(bool)
+  0.00     58.28     0.00      964     0.00     0.00  b2World::GetProfile() const
+  0.00     58.28     0.00      137     0.00     0.00  b2Vec2::Set(float, float)
+  0.00     58.28     0.00       88     0.00     0.00  b2ContactListener::BeginContact(b2Contact*)
+  0.00     58.28     0.00       52     0.00     0.00  b2ContactListener::EndContact(b2Contact*)
+  0.00     58.28     0.00       40     0.00     0.00  b2BodyDef::b2BodyDef()
+  0.00     58.28     0.00       34     0.00     0.00  b2Shape::b2Shape()
+  0.00     58.28     0.00       32     0.00     0.00  b2Vec2::SetZero()
+  0.00     58.28     0.00       29     0.00     0.00  b2PolygonShape::b2PolygonShape()
+  0.00     58.28     0.00       27     0.00     0.00  b2Shape::~b2Shape()
+  0.00     58.28     0.00       16     0.00     0.00  b2PolygonShape::~b2PolygonShape()
+  0.00     58.28     0.00       14     0.00     0.00  b2FixtureDef::b2FixtureDef()
+  0.00     58.28     0.00       14     0.00     0.00  b2Filter::b2Filter()
+  0.00     58.28     0.00       11     0.00     0.00  GLUI_CB::GLUI_CB()
+  0.00     58.28     0.00        6     0.00     0.00  b2JointDef::b2JointDef()
+  0.00     58.28     0.00        5     0.00     0.00  b2RevoluteJointDef::b2RevoluteJointDef()
+  0.00     58.28     0.00        4     0.00     0.00  GLUI_CB::GLUI_CB(void (*)(int))
+  0.00     58.28     0.00        3     0.00     0.00  b2CircleShape::b2CircleShape()
+  0.00     58.28     0.00        2     0.00     0.00  b2EdgeShape::b2EdgeShape()
+  0.00     58.28     0.00        2     0.00     0.00  b2CircleShape::~b2CircleShape()
+  0.00     58.28     0.00        2     0.00     0.00  b2Body::GetWorldCenter() const
+  0.00     58.28     0.00        1     0.00     0.00  _GLOBAL__sub_I__ZN5cs25110test_indexE
+  0.00     58.28     0.00        1     0.00     0.00  _GLOBAL__sub_I_n
+  0.00     58.28     0.00        1     0.00     0.00  create_glui_ui()
+  0.00     58.28     0.00        1     0.00     0.00  __static_initialization_and_destruction_0(int, int)
+  0.00     58.28     0.00        1     0.00     0.00  __static_initialization_and_destruction_0(int, int)
+  0.00     58.28     0.00        1     0.00     0.00  b2EdgeShape::~b2EdgeShape()
+  0.00     58.28     0.00        1     0.00     0.00  debug_draw_t::debug_draw_t()
+  0.00     58.28     0.00        1     0.00     0.00  b2PulleyJointDef::b2PulleyJointDef()
+  0.00     58.28     0.00        1     0.00     0.00  b2ContactListener::b2ContactListener()
+  0.00     58.28     0.00        1     0.00     0.00  cs251::base_sim_t::keyboard_up(unsigned char)
+  0.00     58.28     0.00        1     0.00     0.00  cs251::base_sim_t::base_sim_t()
+  0.00     58.28     0.00        1     0.00     0.00  cs251::settings_t::settings_t()
+  0.00     58.28     0.00        1     0.00     0.00  cs251::sim_t::sim_t(char const*, cs251::base_sim_t* (*)())
+  0.00     58.28     0.00        1     0.00     0.00  cs251::dominos_t::create()
+  0.00     58.28     0.00        1     0.00     0.00  cs251::dominos_t::dominos_t()
+  0.00     58.28     0.00        1     0.00     0.00  b2AABB::b2AABB()
+  0.00     58.28     0.00        1     0.00     0.00  b2Vec2::operator*=(float)
+  0.00     58.28     0.00        1     0.00     0.00  operator-(b2Vec2 const&, b2Vec2 const&)
+
+ %         the percentage of the total running time of the
+time       program used by this function.
+
+cumulative a running sum of the number of seconds accounted
+ seconds   for by this function and those listed above it.
+
+ self      the number of seconds accounted for by this
+seconds    function alone.  This is the major sort for this
+           listing.
+
+calls      the number of times this function was invoked, if
+           this function is profiled, else blank.
+ 
+ self      the average number of milliseconds spent in this
+ms/call    function per call, if this function is profiled,
+	   else blank.
+
+ total     the average number of milliseconds spent in this
+ms/call    function and its descendents per call, if this 
+	   function is profiled, else blank.
+
+name       the name of the function.  This is the minor sort
+           for this listing. The index shows the location of
+	   the function in the gprof listing. If the index is
+	   in parenthesis it shows where it would appear in
+	   the gprof listing if it were to be printed.
+
+Copyright (C) 2012 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+		     Call graph (explanation follows)
+
+
+granularity: each sample hit covers 2 byte(s) for 0.02% of 58.28 seconds
+
+index % time    self  children    called     name
+               58.23    0.02   10604/10604       b2World::DrawShape(b2Fixture*, b2Transform const&, b2Color const&) [2]
+[1]     99.9   58.23    0.02   10604         debug_draw_t::DrawSolidCircle(b2Vec2 const&, float, b2Vec2 const&, b2Color const&) [1]
+                0.01    0.00  349932/349932      operator*(float, b2Vec2 const&) [5]
+                0.01    0.00  349932/349933      operator+(b2Vec2 const&, b2Vec2 const&) [4]
+                0.00    0.00  339328/1039206     b2Vec2::b2Vec2(float, float) [15]
+-----------------------------------------------
+                                                 <spontaneous>
+[2]     99.9    0.00   58.25                 b2World::DrawShape(b2Fixture*, b2Transform const&, b2Color const&) [2]
+               58.23    0.02   10604/10604       debug_draw_t::DrawSolidCircle(b2Vec2 const&, float, b2Vec2 const&, b2Color const&) [1]
+                0.00    0.00   24100/24100       debug_draw_t::DrawSolidPolygon(b2Vec2 const*, int, b2Color const&) [16]
+                0.00    0.00     964/12532       debug_draw_t::DrawSegment(b2Vec2 const&, b2Vec2 const&, b2Color const&) [17]
+-----------------------------------------------
+                                                 <spontaneous>
+[3]      0.0    0.02    0.00                 b2PulleyJoint::InitVelocityConstraints(b2SolverData const&) [3]
+-----------------------------------------------
+                0.00    0.00       1/349933      cs251::callbacks_t::resize_cb(int, int) [7]
+                0.01    0.00  349932/349933      debug_draw_t::DrawSolidCircle(b2Vec2 const&, float, b2Vec2 const&, b2Color const&) [1]
+[4]      0.0    0.01    0.00  349933         operator+(b2Vec2 const&, b2Vec2 const&) [4]
+                0.00    0.00  349933/1039206     b2Vec2::b2Vec2(float, float) [15]
+-----------------------------------------------
+                0.01    0.00  349932/349932      debug_draw_t::DrawSolidCircle(b2Vec2 const&, float, b2Vec2 const&, b2Color const&) [1]
+[5]      0.0    0.01    0.00  349932         operator*(float, b2Vec2 const&) [5]
+                0.00    0.00  349932/1039206     b2Vec2::b2Vec2(float, float) [15]
+-----------------------------------------------
+                                                 <spontaneous>
+[6]      0.0    0.01    0.00                 b2ContactSolver::SolveVelocityConstraints() [6]
+-----------------------------------------------
+                                                 <spontaneous>
+[7]      0.0    0.00    0.00                 cs251::callbacks_t::resize_cb(int, int) [7]
+                0.00    0.00       1/349933      operator+(b2Vec2 const&, b2Vec2 const&) [4]
+                0.00    0.00       1/1039206     b2Vec2::b2Vec2(float, float) [15]
+                0.00    0.00       1/1           b2Vec2::operator*=(float) [66]
+                0.00    0.00       1/1           operator-(b2Vec2 const&, b2Vec2 const&) [67]
+-----------------------------------------------
+                0.00    0.00       1/1039206     cs251::callbacks_t::resize_cb(int, int) [7]
+                0.00    0.00       1/1039206     operator-(b2Vec2 const&, b2Vec2 const&) [67]
+                0.00    0.00       1/1039206     cs251::settings_t::settings_t() [61]
+                0.00    0.00      10/1039206     cs251::dominos_t::dominos_t() [64]
+                0.00    0.00  339328/1039206     debug_draw_t::DrawSolidCircle(b2Vec2 const&, float, b2Vec2 const&, b2Color const&) [1]
+                0.00    0.00  349932/1039206     operator*(float, b2Vec2 const&) [5]
+                0.00    0.00  349933/1039206     operator+(b2Vec2 const&, b2Vec2 const&) [4]
+[15]     0.0    0.00    0.00 1039206         b2Vec2::b2Vec2(float, float) [15]
+-----------------------------------------------
+                0.00    0.00   24100/24100       b2World::DrawShape(b2Fixture*, b2Transform const&, b2Color const&) [2]
+[16]     0.0    0.00    0.00   24100         debug_draw_t::DrawSolidPolygon(b2Vec2 const*, int, b2Color const&) [16]
+-----------------------------------------------
+                0.00    0.00     964/12532       b2World::DrawShape(b2Fixture*, b2Transform const&, b2Color const&) [2]
+                0.00    0.00   11568/12532       b2World::DrawJoint(b2Joint*) [384]
+[17]     0.0    0.00    0.00   12532         debug_draw_t::DrawSegment(b2Vec2 const&, b2Vec2 const&, b2Color const&) [17]
+-----------------------------------------------
+                0.00    0.00      25/11445       b2Island::SolveTOI(b2TimeStep const&, int, int) [389]
+                0.00    0.00   11420/11445       b2Island::Solve(b2Profile*, b2TimeStep const&, b2Vec2 const&, bool) [387]
+[18]     0.0    0.00    0.00   11445         b2ContactListener::PostSolve(b2Contact*, b2ContactImpulse const*) [18]
+-----------------------------------------------
+                0.00    0.00   11428/11428       b2Contact::Update(b2ContactListener*) [397]
+[19]     0.0    0.00    0.00   11428         b2ContactListener::PreSolve(b2Contact*, b2Manifold const*) [19]
+-----------------------------------------------
+                0.00    0.00    7712/7712        cs251::base_sim_t::step(cs251::settings_t*) [26]
+[20]     0.0    0.00    0.00    7712         float b2Max<float>(float, float) [20]
+-----------------------------------------------
+                0.00    0.00       1/4704        __static_initialization_and_destruction_0(int, int) [53]
+                0.00    0.00       1/4704        cs251::base_sim_t::base_sim_t() [60]
+                0.00    0.00       1/4704        __static_initialization_and_destruction_0(int, int) [54]
+                0.00    0.00       2/4704        b2AABB::b2AABB() [65]
+                0.00    0.00       3/4704        b2CircleShape::b2CircleShape() [46]
+                0.00    0.00       4/4704        b2PulleyJointDef::b2PulleyJointDef() [57]
+                0.00    0.00       5/4704        cs251::dominos_t::dominos_t() [64]
+                0.00    0.00       8/4704        b2EdgeShape::b2EdgeShape() [47]
+                0.00    0.00      10/4704        b2RevoluteJointDef::b2RevoluteJointDef() [44]
+                0.00    0.00      80/4704        b2BodyDef::b2BodyDef() [34]
+                0.00    0.00     493/4704        b2PolygonShape::b2PolygonShape() [37]
+                0.00    0.00    4096/4704        cs251::contact_point_t::contact_point_t() [22]
+[21]     0.0    0.00    0.00    4704         b2Vec2::b2Vec2() [21]
+-----------------------------------------------
+                0.00    0.00    2048/2048        cs251::base_sim_t::base_sim_t() [60]
+[22]     0.0    0.00    0.00    2048         cs251::contact_point_t::contact_point_t() [22]
+                0.00    0.00    4096/4704        b2Vec2::b2Vec2() [21]
+-----------------------------------------------
+                0.00    0.00     964/964         cs251::base_sim_t::draw_title(int, int, char const*) [24]
+[23]     0.0    0.00    0.00     964         debug_draw_t::DrawString(int, int, char const*, ...) [23]
+-----------------------------------------------
+                0.00    0.00     964/964         cs251::callbacks_t::display_cb() [324]
+[24]     0.0    0.00    0.00     964         cs251::base_sim_t::draw_title(int, int, char const*) [24]
+                0.00    0.00     964/964         debug_draw_t::DrawString(int, int, char const*, ...) [23]
+-----------------------------------------------
+                0.00    0.00     964/964         cs251::callbacks_t::display_cb() [324]
+[25]     0.0    0.00    0.00     964         cs251::base_sim_t::set_text_line(int) [25]
+-----------------------------------------------
+                0.00    0.00     964/964         cs251::callbacks_t::display_cb() [324]
+[26]     0.0    0.00    0.00     964         cs251::base_sim_t::step(cs251::settings_t*) [26]
+                0.00    0.00    7712/7712        float b2Max<float>(float, float) [20]
+                0.00    0.00     964/964         b2World::SetWarmStarting(bool) [28]
+                0.00    0.00     964/964         b2World::SetContinuousPhysics(bool) [29]
+                0.00    0.00     964/964         b2World::SetSubStepping(bool) [27]
+                0.00    0.00     964/964         b2World::GetProfile() const [30]
+-----------------------------------------------
+                0.00    0.00     964/964         cs251::base_sim_t::step(cs251::settings_t*) [26]
+[27]     0.0    0.00    0.00     964         b2World::SetSubStepping(bool) [27]
+-----------------------------------------------
+                0.00    0.00     964/964         cs251::base_sim_t::step(cs251::settings_t*) [26]
+[28]     0.0    0.00    0.00     964         b2World::SetWarmStarting(bool) [28]
+-----------------------------------------------
+                0.00    0.00     964/964         cs251::base_sim_t::step(cs251::settings_t*) [26]
+[29]     0.0    0.00    0.00     964         b2World::SetContinuousPhysics(bool) [29]
+-----------------------------------------------
+                0.00    0.00     964/964         cs251::base_sim_t::step(cs251::settings_t*) [26]
+[30]     0.0    0.00    0.00     964         b2World::GetProfile() const [30]
+-----------------------------------------------
+                0.00    0.00       1/137         cs251::base_sim_t::base_sim_t() [60]
+                0.00    0.00       4/137         b2PulleyJointDef::b2PulleyJointDef() [57]
+                0.00    0.00      10/137         b2RevoluteJointDef::b2RevoluteJointDef() [44]
+                0.00    0.00      42/137         cs251::dominos_t::dominos_t() [64]
+                0.00    0.00      80/137         b2BodyDef::b2BodyDef() [34]
+[31]     0.0    0.00    0.00     137         b2Vec2::Set(float, float) [31]
+-----------------------------------------------
+                0.00    0.00      88/88          b2Contact::Update(b2ContactListener*) [397]
+[32]     0.0    0.00    0.00      88         b2ContactListener::BeginContact(b2Contact*) [32]
+-----------------------------------------------
+                0.00    0.00      52/52          b2Contact::Update(b2ContactListener*) [397]
+[33]     0.0    0.00    0.00      52         b2ContactListener::EndContact(b2Contact*) [33]
+-----------------------------------------------
+                0.00    0.00       1/40          cs251::base_sim_t::base_sim_t() [60]
+                0.00    0.00       4/40          __static_initialization_and_destruction_0(int, int) [54]
+                0.00    0.00      35/40          cs251::dominos_t::dominos_t() [64]
+[34]     0.0    0.00    0.00      40         b2BodyDef::b2BodyDef() [34]
+                0.00    0.00      80/4704        b2Vec2::b2Vec2() [21]
+                0.00    0.00      80/137         b2Vec2::Set(float, float) [31]
+-----------------------------------------------
+                0.00    0.00       2/34          b2EdgeShape::b2EdgeShape() [47]
+                0.00    0.00       3/34          b2CircleShape::b2CircleShape() [46]
+                0.00    0.00      29/34          b2PolygonShape::b2PolygonShape() [37]
+[35]     0.0    0.00    0.00      34         b2Shape::b2Shape() [35]
+-----------------------------------------------
+                0.00    0.00       3/32          b2CircleShape::b2CircleShape() [46]
+                0.00    0.00      29/32          b2PolygonShape::b2PolygonShape() [37]
+[36]     0.0    0.00    0.00      32         b2Vec2::SetZero() [36]
+-----------------------------------------------
+                0.00    0.00       6/29          __static_initialization_and_destruction_0(int, int) [54]
+                0.00    0.00      23/29          cs251::dominos_t::dominos_t() [64]
+[37]     0.0    0.00    0.00      29         b2PolygonShape::b2PolygonShape() [37]
+                0.00    0.00     493/4704        b2Vec2::b2Vec2() [21]
+                0.00    0.00      29/34          b2Shape::b2Shape() [35]
+                0.00    0.00      29/32          b2Vec2::SetZero() [36]
+-----------------------------------------------
+                0.00    0.00       2/27          b2EdgeShape::~b2EdgeShape() [55]
+                0.00    0.00       3/27          b2CircleShape::~b2CircleShape() [48]
+                0.00    0.00      22/27          b2PolygonShape::~b2PolygonShape() [39]
+[38]     0.0    0.00    0.00      27         b2Shape::~b2Shape() [38]
+-----------------------------------------------
+                0.00    0.00      16/16          cs251::dominos_t::dominos_t() [64]
+[39]     0.0    0.00    0.00      16         b2PolygonShape::~b2PolygonShape() [39]
+                0.00    0.00      22/27          b2Shape::~b2Shape() [38]
+-----------------------------------------------
+                0.00    0.00       3/14          __static_initialization_and_destruction_0(int, int) [54]
+                0.00    0.00      11/14          cs251::dominos_t::dominos_t() [64]
+[40]     0.0    0.00    0.00      14         b2FixtureDef::b2FixtureDef() [40]
+                0.00    0.00      14/14          b2Filter::b2Filter() [41]
+-----------------------------------------------
+                0.00    0.00      14/14          b2FixtureDef::b2FixtureDef() [40]
+[41]     0.0    0.00    0.00      14         b2Filter::b2Filter() [41]
+-----------------------------------------------
+                0.00    0.00      11/11          create_glui_ui() [52]
+[42]     0.0    0.00    0.00      11         GLUI_CB::GLUI_CB() [42]
+-----------------------------------------------
+                0.00    0.00       1/6           b2PulleyJointDef::b2PulleyJointDef() [57]
+                0.00    0.00       5/6           b2RevoluteJointDef::b2RevoluteJointDef() [44]
+[43]     0.0    0.00    0.00       6         b2JointDef::b2JointDef() [43]
+-----------------------------------------------
+                0.00    0.00       2/5           __static_initialization_and_destruction_0(int, int) [54]
+                0.00    0.00       3/5           cs251::dominos_t::dominos_t() [64]
+[44]     0.0    0.00    0.00       5         b2RevoluteJointDef::b2RevoluteJointDef() [44]
+                0.00    0.00      10/4704        b2Vec2::b2Vec2() [21]
+                0.00    0.00      10/137         b2Vec2::Set(float, float) [31]
+                0.00    0.00       5/6           b2JointDef::b2JointDef() [43]
+-----------------------------------------------
+                0.00    0.00       4/4           create_glui_ui() [52]
+[45]     0.0    0.00    0.00       4         GLUI_CB::GLUI_CB(void (*)(int)) [45]
+-----------------------------------------------
+                0.00    0.00       1/3           __static_initialization_and_destruction_0(int, int) [54]
+                0.00    0.00       2/3           cs251::dominos_t::dominos_t() [64]
+[46]     0.0    0.00    0.00       3         b2CircleShape::b2CircleShape() [46]
+                0.00    0.00       3/34          b2Shape::b2Shape() [35]
+                0.00    0.00       3/4704        b2Vec2::b2Vec2() [21]
+                0.00    0.00       3/32          b2Vec2::SetZero() [36]
+-----------------------------------------------
+                0.00    0.00       1/2           cs251::dominos_t::dominos_t() [64]
+                0.00    0.00       1/2           __static_initialization_and_destruction_0(int, int) [54]
+[47]     0.0    0.00    0.00       2         b2EdgeShape::b2EdgeShape() [47]
+                0.00    0.00       8/4704        b2Vec2::b2Vec2() [21]
+                0.00    0.00       2/34          b2Shape::b2Shape() [35]
+-----------------------------------------------
+                0.00    0.00       2/2           cs251::dominos_t::dominos_t() [64]
+[48]     0.0    0.00    0.00       2         b2CircleShape::~b2CircleShape() [48]
+                0.00    0.00       3/27          b2Shape::~b2Shape() [38]
+-----------------------------------------------
+                0.00    0.00       2/2           cs251::dominos_t::dominos_t() [64]
+[49]     0.0    0.00    0.00       2         b2Body::GetWorldCenter() const [49]
+-----------------------------------------------
+                0.00    0.00       1/1           __libc_csu_init [568]
+[50]     0.0    0.00    0.00       1         _GLOBAL__sub_I__ZN5cs25110test_indexE [50]
+                0.00    0.00       1/1           __static_initialization_and_destruction_0(int, int) [53]
+-----------------------------------------------
+                0.00    0.00       1/1           __libc_csu_init [568]
+[51]     0.0    0.00    0.00       1         _GLOBAL__sub_I_n [51]
+                0.00    0.00       1/1           __static_initialization_and_destruction_0(int, int) [54]
+-----------------------------------------------
+                0.00    0.00       1/1           main [13]
+[52]     0.0    0.00    0.00       1         create_glui_ui() [52]
+                0.00    0.00      11/11          GLUI_CB::GLUI_CB() [42]
+                0.00    0.00       4/4           GLUI_CB::GLUI_CB(void (*)(int)) [45]
+-----------------------------------------------
+                0.00    0.00       1/1           _GLOBAL__sub_I__ZN5cs25110test_indexE [50]
+[53]     0.0    0.00    0.00       1         __static_initialization_and_destruction_0(int, int) [53]
+                0.00    0.00       1/4704        b2Vec2::b2Vec2() [21]
+                0.00    0.00       1/1           cs251::settings_t::settings_t() [61]
+-----------------------------------------------
+                0.00    0.00       1/1           _GLOBAL__sub_I_n [51]
+[54]     0.0    0.00    0.00       1         __static_initialization_and_destruction_0(int, int) [54]
+                0.00    0.00       6/29          b2PolygonShape::b2PolygonShape() [37]
+                0.00    0.00       4/40          b2BodyDef::b2BodyDef() [34]
+                0.00    0.00       3/14          b2FixtureDef::b2FixtureDef() [40]
+                0.00    0.00       2/5           b2RevoluteJointDef::b2RevoluteJointDef() [44]
+                0.00    0.00       1/2           b2EdgeShape::b2EdgeShape() [47]
+                0.00    0.00       1/3           b2CircleShape::b2CircleShape() [46]
+                0.00    0.00       1/4704        b2Vec2::b2Vec2() [21]
+                0.00    0.00       1/1           cs251::sim_t::sim_t(char const*, cs251::base_sim_t* (*)()) [62]
+-----------------------------------------------
+                0.00    0.00       1/1           cs251::dominos_t::dominos_t() [64]
+[55]     0.0    0.00    0.00       1         b2EdgeShape::~b2EdgeShape() [55]
+                0.00    0.00       2/27          b2Shape::~b2Shape() [38]
+-----------------------------------------------
+                0.00    0.00       1/1           cs251::base_sim_t::base_sim_t() [60]
+[56]     0.0    0.00    0.00       1         debug_draw_t::debug_draw_t() [56]
+-----------------------------------------------
+                0.00    0.00       1/1           cs251::dominos_t::dominos_t() [64]
+[57]     0.0    0.00    0.00       1         b2PulleyJointDef::b2PulleyJointDef() [57]
+                0.00    0.00       4/4704        b2Vec2::b2Vec2() [21]
+                0.00    0.00       4/137         b2Vec2::Set(float, float) [31]
+                0.00    0.00       1/6           b2JointDef::b2JointDef() [43]
+-----------------------------------------------
+                0.00    0.00       1/1           cs251::base_sim_t::base_sim_t() [60]
+[58]     0.0    0.00    0.00       1         b2ContactListener::b2ContactListener() [58]
+-----------------------------------------------
+                0.00    0.00       1/1           cs251::callbacks_t::keyboard_up_cb(unsigned char, int, int) [327]
+[59]     0.0    0.00    0.00       1         cs251::base_sim_t::keyboard_up(unsigned char) [59]
+-----------------------------------------------
+                0.00    0.00       1/1           cs251::dominos_t::dominos_t() [64]
+[60]     0.0    0.00    0.00       1         cs251::base_sim_t::base_sim_t() [60]
+                0.00    0.00    2048/2048        cs251::contact_point_t::contact_point_t() [22]
+                0.00    0.00       1/1           b2ContactListener::b2ContactListener() [58]
+                0.00    0.00       1/1           b2AABB::b2AABB() [65]
+                0.00    0.00       1/1           debug_draw_t::debug_draw_t() [56]
+                0.00    0.00       1/4704        b2Vec2::b2Vec2() [21]
+                0.00    0.00       1/137         b2Vec2::Set(float, float) [31]
+                0.00    0.00       1/40          b2BodyDef::b2BodyDef() [34]
+-----------------------------------------------
+                0.00    0.00       1/1           __static_initialization_and_destruction_0(int, int) [53]
+[61]     0.0    0.00    0.00       1         cs251::settings_t::settings_t() [61]
+                0.00    0.00       1/1039206     b2Vec2::b2Vec2(float, float) [15]
+-----------------------------------------------
+                0.00    0.00       1/1           __static_initialization_and_destruction_0(int, int) [54]
+[62]     0.0    0.00    0.00       1         cs251::sim_t::sim_t(char const*, cs251::base_sim_t* (*)()) [62]
+-----------------------------------------------
+                0.00    0.00       1/1           main [13]
+[63]     0.0    0.00    0.00       1         cs251::dominos_t::create() [63]
+                0.00    0.00       1/1           cs251::dominos_t::dominos_t() [64]
+-----------------------------------------------
+                0.00    0.00       1/1           cs251::dominos_t::create() [63]
+[64]     0.0    0.00    0.00       1         cs251::dominos_t::dominos_t() [64]
+                0.00    0.00      42/137         b2Vec2::Set(float, float) [31]
+                0.00    0.00      35/40          b2BodyDef::b2BodyDef() [34]
+                0.00    0.00      23/29          b2PolygonShape::b2PolygonShape() [37]
+                0.00    0.00      16/16          b2PolygonShape::~b2PolygonShape() [39]
+                0.00    0.00      11/14          b2FixtureDef::b2FixtureDef() [40]
+                0.00    0.00      10/1039206     b2Vec2::b2Vec2(float, float) [15]
+                0.00    0.00       5/4704        b2Vec2::b2Vec2() [21]
+                0.00    0.00       3/5           b2RevoluteJointDef::b2RevoluteJointDef() [44]
+                0.00    0.00       2/3           b2CircleShape::b2CircleShape() [46]
+                0.00    0.00       2/2           b2CircleShape::~b2CircleShape() [48]
+                0.00    0.00       2/2           b2Body::GetWorldCenter() const [49]
+                0.00    0.00       1/1           cs251::base_sim_t::base_sim_t() [60]
+                0.00    0.00       1/2           b2EdgeShape::b2EdgeShape() [47]
+                0.00    0.00       1/1           b2EdgeShape::~b2EdgeShape() [55]
+                0.00    0.00       1/1           b2PulleyJointDef::b2PulleyJointDef() [57]
+-----------------------------------------------
+                0.00    0.00       1/1           cs251::base_sim_t::base_sim_t() [60]
+[65]     0.0    0.00    0.00       1         b2AABB::b2AABB() [65]
+                0.00    0.00       2/4704        b2Vec2::b2Vec2() [21]
+-----------------------------------------------
+                0.00    0.00       1/1           cs251::callbacks_t::resize_cb(int, int) [7]
+[66]     0.0    0.00    0.00       1         b2Vec2::operator*=(float) [66]
+-----------------------------------------------
+                0.00    0.00       1/1           cs251::callbacks_t::resize_cb(int, int) [7]
+[67]     0.0    0.00    0.00       1         operator-(b2Vec2 const&, b2Vec2 const&) [67]
+                0.00    0.00       1/1039206     b2Vec2::b2Vec2(float, float) [15]
+-----------------------------------------------
+
+ This table describes the call tree of the program, and was sorted by
+ the total amount of time spent in each function and its children.
+
+ Each entry in this table consists of several lines.  The line with the
+ index number at the left hand margin lists the current function.
+ The lines above it list the functions that called this function,
+ and the lines below it list the functions this one called.
+ This line lists:
+     index	A unique number given to each element of the table.
+		Index numbers are sorted numerically.
+		The index number is printed next to every function name so
+		it is easier to look up where the function is in the table.
+
+     % time	This is the percentage of the `total' time that was spent
+		in this function and its children.  Note that due to
+		different viewpoints, functions excluded by options, etc,
+		these numbers will NOT add up to 100%.
+
+     self	This is the total amount of time spent in this function.
+
+     children	This is the total amount of time propagated into this
+		function by its children.
+
+     called	This is the number of times the function was called.
+		If the function called itself recursively, the number
+		only includes non-recursive calls, and is followed by
+		a `+' and the number of recursive calls.
+
+     name	The name of the current function.  The index number is
+		printed after it.  If the function is a member of a
+		cycle, the cycle number is printed between the
+		function's name and the index number.
+
+
+ For the function's parents, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the function into this parent.
+
+     children	This is the amount of time that was propagated from
+		the function's children into this parent.
+
+     called	This is the number of times this parent called the
+		function `/' the total number of times the function
+		was called.  Recursive calls to the function are not
+		included in the number after the `/'.
+
+     name	This is the name of the parent.  The parent's index
+		number is printed after it.  If the parent is a
+		member of a cycle, the cycle number is printed between
+		the name and the index number.
+
+ If the parents of the function cannot be determined, the word
+ `<spontaneous>' is printed in the `name' field, and all the other
+ fields are blank.
+
+ For the function's children, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the child into the function.
+
+     children	This is the amount of time that was propagated from the
+		child's children to the function.
+
+     called	This is the number of times the function called
+		this child `/' the total number of times the child
+		was called.  Recursive calls by the child are not
+		listed in the number after the `/'.
+
+     name	This is the name of the child.  The child's index
+		number is printed after it.  If the child is a
+		member of a cycle, the cycle number is printed
+		between the name and the index number.
+
+ If there are any cycles (circles) in the call graph, there is an
+ entry for the cycle-as-a-whole.  This entry shows who called the
+ cycle (as parents) and the members of the cycle (as children.)
+ The `+' recursive calls entry shows the number of function calls that
+ were internal to the cycle, and the calls entry for each member shows,
+ for that member, how many times it was called from other members of
+ the cycle.
+
+Copyright (C) 2012 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+Index by function name
+
+  [50] _GLOBAL__sub_I__ZN5cs25110test_indexE (callbacks.cpp) [6] b2ContactSolver::SolveVelocityConstraints() [36] b2Vec2::SetZero()
+  [51] _GLOBAL__sub_I_n (dominos.cpp) [57] b2PulleyJointDef::b2PulleyJointDef() [15] b2Vec2::b2Vec2(float, float)
+  [52] create_glui_ui()       [33] b2ContactListener::EndContact(b2Contact*) [21] b2Vec2::b2Vec2()
+  [53] __static_initialization_and_destruction_0(int, int) (callbacks.cpp) [32] b2ContactListener::BeginContact(b2Contact*) [66] b2Vec2::operator*=(float)
+  [54] __static_initialization_and_destruction_0(int, int) (dominos.cpp) [19] b2ContactListener::PreSolve(b2Contact*, b2Manifold const*) [45] GLUI_CB::GLUI_CB(void (*)(int))
+  [20] float b2Max<float>(float, float) [18] b2ContactListener::PostSolve(b2Contact*, b2ContactImpulse const*) [42] GLUI_CB::GLUI_CB()
+  [43] b2JointDef::b2JointDef() [58] b2ContactListener::b2ContactListener() [35] b2Shape::b2Shape()
+  [47] b2EdgeShape::b2EdgeShape() [44] b2RevoluteJointDef::b2RevoluteJointDef() [38] b2Shape::~b2Shape()
+  [55] b2EdgeShape::~b2EdgeShape() [24] cs251::base_sim_t::draw_title(int, int, char const*) [27] b2World::SetSubStepping(bool)
+  [40] b2FixtureDef::b2FixtureDef() [59] cs251::base_sim_t::keyboard_up(unsigned char) [28] b2World::SetWarmStarting(bool)
+  [23] debug_draw_t::DrawString(int, int, char const*, ...) [25] cs251::base_sim_t::set_text_line(int) [29] b2World::SetContinuousPhysics(bool)
+  [17] debug_draw_t::DrawSegment(b2Vec2 const&, b2Vec2 const&, b2Color const&) [26] cs251::base_sim_t::step(cs251::settings_t*) [41] b2Filter::b2Filter()
+   [1] debug_draw_t::DrawSolidCircle(b2Vec2 const&, float, b2Vec2 const&, b2Color const&) [60] cs251::base_sim_t::base_sim_t() [34] b2BodyDef::b2BodyDef()
+  [16] debug_draw_t::DrawSolidPolygon(b2Vec2 const*, int, b2Color const&) [61] cs251::settings_t::settings_t() [49] b2Body::GetWorldCenter() const
+  [56] debug_draw_t::debug_draw_t() [22] cs251::contact_point_t::contact_point_t() [30] b2World::GetProfile() const
+  [46] b2CircleShape::b2CircleShape() [62] cs251::sim_t::sim_t(char const*, cs251::base_sim_t* (*)()) [67] operator-(b2Vec2 const&, b2Vec2 const&)
+  [48] b2CircleShape::~b2CircleShape() [63] cs251::dominos_t::create() [5] operator*(float, b2Vec2 const&)
+   [3] b2PulleyJoint::InitVelocityConstraints(b2SolverData const&) [64] cs251::dominos_t::dominos_t() [4] operator+(b2Vec2 const&, b2Vec2 const&)
+  [37] b2PolygonShape::b2PolygonShape() [65] b2AABB::b2AABB()
+  [39] b2PolygonShape::~b2PolygonShape() [31] b2Vec2::Set(float, float)
