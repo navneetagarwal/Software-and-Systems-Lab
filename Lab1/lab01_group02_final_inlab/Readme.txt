@@ -1,17 +1,3 @@
-
-Assignment 1 :Outlab
-Completed on: 26 July,2015
-Submitted on: 
-Group No: 02
-Team Members:		CSE ID		Roll No.	Percentage Contribution
-Harshal Mahajan		harshal.m	140050003	100%
-Tanmay Parekh  		tanmayb         140100011	100%
-Navneet Agarwal		navneet		140100090	100%
-
-
-Honor Code: I, on behalf of my groupmates pledge on our own honour that we have not consulted or given any assistance to any group for this particular assignment.
-	    We have not copied or looked 
-
 Citations:
  Any doubts we had has been posted,referred on Piazza.
  We also referrred to the list of functions or Functions documentation of Matlab and Octave on their respective websites.

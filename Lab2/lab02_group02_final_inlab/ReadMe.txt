@@ -1,15 +1,3 @@
-Group No. 2
-Group Name: Blitz
-
-Group Members:
-Name			Roll No.	Percentage Contribution
-Harshal Mahajan		140050003	100%
-Tanmay Parekh		140100011	100%
-Navneet Agarwal		140100090	100%
-
-Honor Code
-We stick to our honor code and pledge on our lives that we haven't taken any help from any group.
-
 Citations:
 w3schools.com for JS, HTML, CSS
 Sivaprasad's website for design and pattern

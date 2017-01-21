@@ -1,14 +1,3 @@
-Group No.: 02
-Group Name: Blitz Exterminators
-
-Team Members:nor Code
-Name:			CSE ID		Roll No. 		Percentage Contribution
-Harshal Mahajan 	harshal.m	140050003		100%
-Tanmay Parekh		tanmayb		140100011		100%
-Navneet Agarwal		navneet		140100090		100%
-
-Honor Code: We pledge on our honor that we have not given or taken any form of help from any other group and we claim that this assignment is solely our effort
-
 Citations:
 
 Box2d documentation

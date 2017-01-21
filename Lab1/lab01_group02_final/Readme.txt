@@ -1,14 +1,3 @@
-Group No. : 02
-Group Name: Blitz
-Team Members:
-Name		Roll No.	Percentage Contribution
-Harshal Mahajan	140050003	100%
-Tanmay Parekh	140100011	100%
-Navneet Agarwal	140100090	100%
-
-Honour Code:
-We pledge on our own honour that we have not assisted or consulted with any other group and this assignment is solely our effort.
-
 Citations:
 1. Octave Documentation
 2. http://in.mathworks.com/help/matlab/ref/plot.html

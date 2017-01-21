@@ -1,13 +1,3 @@
-Group No - 02
-Group Name - Blitz
-
-Name 		Roll No		Percentage
-Harshal Mahajan	140050003	100%
-Tanmay Parekh	140100011	100%
-Navneet Agarwal	140100090	100%
-
-We pledge that we abide by the honor code and have not received any help from any other group. We have just used internet as our help.
-
 Citations:
 Killer Sudoku from Wikipedia.
 Java Script from w3schools.com

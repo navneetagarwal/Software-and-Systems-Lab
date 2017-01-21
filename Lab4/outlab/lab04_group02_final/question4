@@ -1,0 +1,34 @@
+file="$1"
+substring="."
+if [ -z "$file" ]
+then
+  exit 1
+fi
+if [ -f "$file" ]
+	then
+	
+file1="myopen.cfg"
+x=`expr index $file $substring`
+s=${file:($x)}
+IFS=':'
+g=1
+if [ -f "$file1" ]
+	then
+while read f1 f2
+do
+	if [ "$f1" == "$s" ]
+		then
+			$f2 $file 2>/dev/null ||exit 4
+			g=0
+			exit 0
+		fi
+done<myopen.cfg
+else
+	exit 2
+fi
+if [[ $g==1 ]]; then
+	exit 3
+fi
+else
+	exit
+fi
